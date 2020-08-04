@@ -1,0 +1,48 @@
+body {
+    background: white;
+}
+
+section {
+    background: white;
+}
+
+#top {
+    color: #F42B03; 
+}
+
+.section-p {
+    color: #0D00A4;
+}
+
+.section-p-1{
+    color: #874000;
+}
+
+.section-h2 {
+    color: #124559;
+}
+
+.section-h2-1 {
+    color: #F1D302;  
+}
+
+.section-h2-2 {
+    color: #ff00dd;
+}
+
+.hotpink-header {
+    color: hotpink;
+}
+
+article p {
+    color:#00D9C0;
+}
+
+footer {
+    color: #ff0000
+}
+
+a {
+    color: #003cff;
+}
+
