@@ -1,9 +1,5 @@
 body {
-    background: white;
-}
-
-section {
-    background: white;
+    background: #D9F2B4;
 }
 
 #top {
@@ -19,7 +15,7 @@ section {
 }
 
 .bold-text{
-    color: #15da15
+    color: #15da15;
 }
 
 .section-h2 {
@@ -43,7 +39,7 @@ article p {
 }
 
 footer {
-    color: #ff0000
+    color: #ff0000;
 }
 
 a {
@@ -51,6 +47,7 @@ a {
 }
 
 .body-footer{
-    color: #575757
+    color: #575757;
 }
+
 
