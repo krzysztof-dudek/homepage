@@ -1,9 +1,7 @@
 const name = "Krzysztof";
 const age = 14;
 
-const heading = document.querySelector('.main__heading--js');
 
-heading. innerHTML = `Nazywam się ${name} i mam ${age} lat.`;
 
 function greet (age, name) {
     console.log (
@@ -11,7 +9,7 @@ function greet (age, name) {
     );
 }
 
-greet (age, name)
+greet (14, "Krzysztof")
 
 
 function createContent(querySelectorContent, content) {
@@ -19,4 +17,15 @@ function createContent(querySelectorContent, content) {
     element.innerHTML =  content;
 }
 
-createContent('.notes__heading--js' , 'Dzień dobry!' )
+createContent('.notes__heading--js' , 'Dzień dobry!' );
+
+const button = document.querySelector ('.action--js');
+
+console.log (button);
+
+const myClick = () => {
+    const heading = document.querySelector('.main__heading--js');
+    heading. innerHTML = `Nazywam się Krzysztof i mam 14 lat.`;
+}
+
+button.addEventListener('click',myClick )
