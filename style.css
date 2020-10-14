@@ -96,6 +96,32 @@ a {
   column-gap: 16px;
 }
 
+
+
+.notes__heading::before {
+  content:"";
+  display: inline-block;
+  width: 12px;
+  height: 12px; 
+  margin-right: 5px;
+  background: tomato;
+  border-radius: 50%;
+}
+
+.notes__heading::after {
+  content:"";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-left:5px; 
+  background: tomato;
+  border-radius: 50%;
+}
+
+.content__article:hover {
+  background:rgb(66, 164, 243);
+}
+
 .navigation {
   padding: 16px;
   display: none;
